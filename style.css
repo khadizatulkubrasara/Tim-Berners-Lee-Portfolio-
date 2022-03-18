@@ -1,0 +1,84 @@
+body 
+{
+margin:0;
+padding-top:800px;
+text-align: center;
+}
+.profile
+{
+    border-radius: 50%;
+}
+#welcome
+{
+    position: absolute; 
+    z-index:5;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(lavender 0%,purple 100%) ;
+}
+
+#name
+{
+    font-size: 50px;
+    font-family: 'Noto Serif Display', serif;
+font-family: 'Smooch Sans', sans-serif;
+}
+#bio
+{
+    font-family: 'Noto Serif Display', serif;
+    padding: 50px;
+}
+.line
+
+{
+    height:6px;
+    background-color: black;
+    width:70px;
+    margin: 8px auto;
+}
+.welcome-inner
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu 
+{
+    list-style:none;
+    position:fixed;
+    top: 0px;
+background: white;
+    margin-top:0px;
+    z-index:8;
+    cursor: pointer;
+    
+}
+
+.links
+{
+display:inline;   
+ padding-top:5px;
+ padding-bottom:5px;
+ padding-right:25px;
+ padding-left:33px;
+font-size: 20px;
+}
+
+.links:hover
+{
+    font-size:25px;
+    text-decoration:underline;
+}
+
+#Writings a
+{
+    text-decoration:underline !important;
+    color:rgb(127, 250, 193);
+}
+
+#contact
+{
+    background:lightgray;
+}
